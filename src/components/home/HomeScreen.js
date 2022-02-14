@@ -17,24 +17,7 @@ export const HomeScreen = () => {
 
       </div>      
 
-    <div>
-      <h1>Que onda</h1>
-    </div>
-    <div>
-      <h1>Que onda</h1>
-    </div>
-    <div>
-      <h1>Que onda</h1>
-    </div>
-    <div>
-      <h1>Que onda</h1>
-    </div>
-    <div>
-      <h1>Que onda</h1>
-    </div>
-    <div>
-      <h1>Que onda</h1>
-    </div>
+   
   </div>
   )
 };
