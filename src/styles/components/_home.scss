@@ -1,0 +1,43 @@
+
+
+#home__container{
+    flex-direction: column;
+    background-color: #f2f2f2;
+
+    .main-img{
+
+        max-height: 80vh;
+
+    }
+
+    .main__caption{
+        
+        position: absolute;
+        top: 450px;
+        left: 140px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        p{
+            font-size: 18px;
+        }
+        
+        .btn__home{
+
+            border-color: white;
+            color: white;
+            margin-top: 40px;
+            border-radius: 20px;
+    
+            &:hover{
+                background-color: white;
+                color: black;
+                border-color: black;   
+            }
+        }
+    }
+
+
+}
