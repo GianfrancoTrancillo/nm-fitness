@@ -15,3 +15,18 @@
     }
 }
 
+
+
+.btn__home{
+
+    border-color: white;
+    color: white;
+    margin-top: 40px;
+    border-radius: 20px;
+
+    &:hover{
+        background-color: white;
+        color: black;
+        border-color: black;   
+    }
+}

@@ -1,5 +1,7 @@
 // BASE
+@import './base/base';
 @import './base/buttons';
+@import './base/settings';
 
 // NAVBAR
 @import './components/navbar';
@@ -7,3 +9,7 @@
 //  HOME
 
 @import './components/home';
+
+// PRODUCTOS
+
+@import './components/productCard';

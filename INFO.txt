@@ -1,0 +1,3 @@
+>> terminar product card en el home screen (colores y talles)
+
+>>terminar navbar dropdown para 

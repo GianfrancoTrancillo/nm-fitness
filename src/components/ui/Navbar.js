@@ -10,7 +10,7 @@ export const Navbar = () => {
     };
   
     return (
-        <div>
+        <div className="nav__main">
 
             <p id='info__banner' className='w-100'>Envios a todo el país -- Todos los medios de pago</p>
             
@@ -146,7 +146,7 @@ export const Navbar = () => {
                                         
                                         ? <div>
                                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                                            <button className="btn btn-dark" type="submit">Search</button> 
+                                            <button className="btn btn__home" type="submit">Search</button> 
                                             </div>
                                         
                                         : null

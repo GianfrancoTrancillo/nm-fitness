@@ -1,8 +1,17 @@
 import React from 'react';
+// import { products } from '../../data/products';
 
 import { nmImages } from '../../helpers/nmImages';
+import { ProductHome } from '../products/ProductHome';
+// import { ProductCard } from '../products/ProductCard';
+import { ProductList } from '../products/ProductList';
 
 export const HomeScreen = () => {
+
+  
+
+
+
   return (
     <div id='home__container' className='d-flex justify-content-center'>
       
@@ -15,7 +24,20 @@ export const HomeScreen = () => {
         </div>
         
 
-      </div>      
+      </div>
+
+
+      <div className='container-fluid'>
+        
+        <h3 className='mt-4 mb-4'>Nuevo en Accesorios</h3>
+      
+
+        {/* <ProductList category='accesorios'/> */}
+
+        { <ProductHome /> }
+            
+
+      </div>
 
    
   </div>
